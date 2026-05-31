@@ -2,5 +2,5 @@ apiVersion: v2
 name: dbos-monitor
 description: Helm Chart for DBOS Monitor
 type: application
-version: 0.0.3
+version: 0.0.4
 appVersion: "v0.0.3"
