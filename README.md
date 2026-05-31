@@ -21,16 +21,16 @@ cd dbos-monitor-helm
 helm install my-release ./dbos-monitor
 ```
 
-Alternatively, you can install it directly without cloning by passing the archive URL for a specific tag (e.g., `v0.0.1`):
+Alternatively, you can install it directly without cloning by passing the archive URL for a specific tag (e.g., `v0.0.3`):
 
 ```bash
-helm install my-release https://github.com/shyam-king/dbos-monitor-helm/archive/refs/tags/v0.0.1.tar.gz
+helm install my-release https://github.com/shyam-king/dbos-monitor-helm/archive/refs/tags/v0.0.3.tar.gz
 ```
 
-To install a specific version of the `dbos-monitor` image (e.g., `v0.0.1`), you can override the image tag:
+To install a specific version of the `dbos-monitor` image (e.g., `v0.0.3`), you can override the image tag:
 
 ```bash
-helm install my-release https://github.com/shyam-king/dbos-monitor-helm/archive/refs/tags/v0.0.1.tar.gz --set image.tag=v0.0.1
+helm install my-release https://github.com/shyam-king/dbos-monitor-helm/archive/refs/tags/v0.0.3.tar.gz --set image.tag=v0.0.3
 ```
 
 > Available tags can be found in [Docker Hub](https://hub.docker.com/r/shyamking/dbos-monitor/tags)
@@ -62,7 +62,7 @@ kubectl create configmap my-monitor-config --from-literal=DBOS_MONITOR_DBOS_POST
 # 2. Install the Helm chart and reference the ConfigMap
 helm install my-release https://github.com/shyam-king/dbos-monitor-helm/archive/refs/tags/v0.0.1.tar.gz \
   --set configMapName=my-monitor-config \
-  --set image.tag=v0.0.1
+  --set image.tag=v0.0.3
 ```
 
 ### General Configuration
