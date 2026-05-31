@@ -3,6 +3,16 @@ entries:
   dbos-monitor:
   - apiVersion: v2
     appVersion: v0.0.3
+    created: "2026-05-31T14:54:12.525441518Z"
+    description: Helm Chart for DBOS Monitor
+    digest: cc7ac872868859d725912b28a61f22a83130c360757d74c4e552ebc68674a030
+    name: dbos-monitor
+    type: application
+    urls:
+    - dbos-monitor-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: v0.0.3
     created: "2026-05-31T14:47:21.520730102Z"
     description: Helm Chart for DBOS Monitor
     digest: df07cd0448223e3fa3454dda4515448d021979ba29ba47cf1100cd0885e37d90
@@ -11,4 +21,4 @@ entries:
     urls:
     - dbos-monitor-0.0.4.tgz
     version: 0.0.4
-generated: "2026-05-31T14:47:21.520733697Z"
+generated: "2026-05-31T14:54:12.525450365Z"
